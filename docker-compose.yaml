@@ -1,0 +1,5 @@
+services:
+  bowling_prom_exporter:
+    build: .
+    ports:
+      - "9996:9996"
